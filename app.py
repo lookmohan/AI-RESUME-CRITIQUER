@@ -13,7 +13,6 @@ st.set_page_config(page_title="AI Resume Critiquer", page_icon="📃", layout="c
 
 # Load GROQ API Key
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-st.text(f"Loaded Groq Key: {GROQ_API_KEY[:10]}****")
 
 # Create Groq client
 client = OpenAI(
